@@ -9,13 +9,13 @@
 #define ICM20948_00_WHO_AM_I                                  0x00 // 8 bits
 
 #define ICM20948_00_USER_CTRL                                 0x03
-    #ICM20948_00_USER_CTRL_DMP_EN                             7
-    #ICM20948_00_USER_CTRL_FIFO_EN                            6
-    #ICM20948_00_USER_CTRL_I2C_MST_EN                         5
-    #ICM20948_00_USER_CTRL_I2C_IF_DIS                         4
-    #ICM20948_00_USER_CTRL_DMP_RST                            3
-    #ICM20948_00_USER_CTRL_SRAM_RST                           2
-    #ICM20948_00_USER_CTRL_I2C_MST_RST                        1
+    #define ICM20948_00_USER_CTRL_DMP_EN                             7
+    #define ICM20948_00_USER_CTRL_FIFO_EN                            6
+    #define ICM20948_00_USER_CTRL_I2C_MST_EN                         5
+    #define ICM20948_00_USER_CTRL_I2C_IF_DIS                         4
+    #define ICM20948_00_USER_CTRL_DMP_RST                            3
+    #define ICM20948_00_USER_CTRL_SRAM_RST                           2
+    #define ICM20948_00_USER_CTRL_I2C_MST_RST                        1
 
 #define ICM20948_00_LP_CONFIG                                 0x05
     #define ICM20948_00_LP_CONFIG_I2C_MST_CYCLE               6
