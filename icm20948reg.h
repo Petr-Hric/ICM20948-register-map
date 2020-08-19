@@ -6,7 +6,7 @@
 
 // USER BANK 0 REGISTER MAP
 
-#define ICM20948_00_WHO_AM_I                                  0x00 // 8 bits
+#define ICM20948_00_WHO_AM_I                                  0x00
 
 #define ICM20948_00_USER_CTRL                                 0x03
     #define ICM20948_00_USER_CTRL_DMP_EN                      7
